@@ -16,11 +16,6 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 ol, ul {
     list-style: none;
 }
-  
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 body {
     font-family: 'League Spartan', sans-serif;
@@ -28,7 +23,7 @@ body {
 
 .header-container {
     display: flex;
-    width: 1440px;
+    width: 100%;
     padding-top: 104px;
     padding-left: 133px;
     padding-right: 133px;
@@ -77,6 +72,86 @@ body {
     background-color: #FFFFFF;
     color: #272727;
     font-size: 32px;
-    line-height: 38px;
+    line-height: 82px;
     text-align: center;
+}
+
+.header-img {
+    display: block;
+    width: 408px;
+    margin-top: -104px;
+    margin-left: -100px;
+}
+
+.popular-title {
+    margin-top: 43px;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.models-title {
+    margin-bottom: 84px;
+    font-size: 72px;
+    line-height: 81px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.item-wrapper {
+    margin: 0 auto;
+    width: 417px;
+    margin-bottom: 85px;
+}
+
+.item-img-wrapper {
+    width: 430px;
+    height: 640px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 67px;
+}
+
+.item-title {
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.item-desription {
+    font-size: 32px;
+    text-align: center;
+    color: #161515;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.product-description-wrapper {
+    
+    margin: 100px auto 85px auto;
+    width: 417px;
+}
+
+.product-desription-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px;
+    margin-bottom: 58px;
+    font-weight: 400;
+}
+
+.product-description {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.product-description-link {
+    color: #BB8B5D;
 }
